@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^1.11.3",
+    "jquery-lazyload": "^1.9.7",
     "moment": "^2.20.1"
   },
   "devDependencies": {
