@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --progress -p",
-    "watch": "webpack --progress --watch",
-    "server": "webpack-dev-server --open"
+    "start": "webpack --config configs/webpack.config.js --progress -p",
+    "watch": "webpack --config configs/webpack.config.js --progress --watch",
+    "server": "webpack-dev-server --config configs/webpack.config.js --open"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "glob": "^7.1.2",
     "jquery": "^1.11.3",
     "jquery-lazyload": "^1.9.7",
+    "lodash": "^4.17.5",
     "moment": "^2.20.1"
   },
   "devDependencies": {
